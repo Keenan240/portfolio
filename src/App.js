@@ -4,8 +4,6 @@ import profileImage from './images/PFP.jpg';
 import Card from './card'; // Make sure the path matches where your Card.js is
 
 
-
-
 function App() {
 
   const [isVisible, setIsVisible] = useState(false);
