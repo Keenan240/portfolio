@@ -1,0 +1,68 @@
+.card-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.card-background {
+  width: 371px;
+  height: 386px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: white;
+  border-radius: 15px;
+  border: 1px rgba(0, 0, 0, 0.10) solid;
+}
+
+.card-image-container {
+  width: 347px;
+  height: 207px;
+  position: absolute;
+  top: 13px;
+  left: 12px;
+  background: white;
+  border-radius: 15px;
+  border: 1px rgba(0, 0, 0, 0.10) solid;
+}
+
+.card-title {
+  position: absolute;
+  top: 243px;
+  left: 24px;
+  color: black;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.card-subtitle {
+  position: absolute;
+  top: 321px;
+  left: 24px;
+  color: #878787;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+  white-space: nowrap; /* This ensures the text stays on one line */
+}
+
+.card-icon-container {
+  position: absolute;
+  top: 324px;
+  left: 105px;
+  width: 17px;
+  height: 17px;
+  overflow: hidden;
+}
+
+.card-icon {
+  width: 11.33px;
+  height: 8.5px;
+  position: absolute;
+  top: 4.25px;
+  left: 2.83px;
+  outline-offset: -0.71px;
+}

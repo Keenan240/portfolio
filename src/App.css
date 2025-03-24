@@ -1,3 +1,11 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  scroll-behavior: smooth;
+
+}
+
 .App {
   text-align: center;
 }
@@ -36,3 +44,75 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: horizon;
+  src: url(fonts/horizon.otf);
+}
+@font-face {
+  font-family: horizonOutlined;
+  src: url(fonts/horizon_outlined.otf);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+
+.horizon{
+  font-family: horizon;
+  align-items: center;
+  justify-content: center;
+}
+
+.horizonOutlined{
+  font-family: horizonOutlined;
+  align-items: center;
+  justify-content: center;
+}
+
+.resumeButton{
+  width: 166px;
+  height: 47.512px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #000;
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 11.731px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  transition: background-color 0.5s ease;
+
+}
+
+.resumeButton:hover{
+  width: 166px;
+  height: 47.512px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 0.587px solid #000;
+  background: #FFF;
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 11.731px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+
