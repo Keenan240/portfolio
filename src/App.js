@@ -78,7 +78,7 @@ function App() {
         <div style={{width: 45, height: 45, left: 0, top: 6, position: 'absolute', background: '#D9D9D9', borderRadius: 9999}} />
       </div>
 
-      <div style={{width: '100%', height: '100%', position: 'absolute', top: 1134, left:347}}>
+      <div style={{width: '100%', height: '100%', position: 'absolute', top: 1134, left:612}}>
         <div style={{left: 65, top: 0, position: 'absolute', color: 'black', fontSize: 20, fontFamily: 'Poppins', fontWeight: '900', wordWrap: 'break-word'}}>UI/UX Designer</div>
         <div style={{left: 65, top: 30, position: 'absolute', color: '#878787', fontSize: 16, fontFamily: 'Poppins', fontWeight: '500', wordWrap: 'break-word'}}>QTMA - Kingston</div>
         <div style={{left: 99, top: 85, position: 'absolute', color: '#878787', fontSize: 16, fontFamily: 'Poppins', fontWeight: '500', wordWrap: 'break-word'}}>2025-Present</div>
