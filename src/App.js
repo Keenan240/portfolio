@@ -46,9 +46,9 @@ function App() {
       </div>
 
       {/* Experience #Remember to turn the profiles into components!!!*/}
-      <div id="experiences"style={{textAlign: 'center', color: 'black', fontSize: 40, fontFamily: 'Horizon', fontWeight: '700', wordWrap: 'break-word', position:'absolute', top:750, left:505}}>Experience</div>
+      <div id="experiences"style={{textAlign: 'center', color: 'black', fontSize: 40, fontFamily: 'Horizon', fontWeight: '700', wordWrap: 'break-word', position:'absolute', top:704, left:525}}>Experience</div>
 
-      <div style={{width: '100%', height: '100%', position: 'absolute', top:908, left:712}}>
+      <div style={{width: '100%', height: '100%', position: 'absolute', top:825, left:516}}>
         <div style={{width: 18, height: 17, left: 0, top: 0, position: 'absolute', background: '#D9D9D9', borderRadius: 9999}} />
         <div style={{width: 153, height: 0, left: 9.50, top: 168, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: 'top left', outline: '1.83px #D9D9D9 solid', outlineOffset: '-0.91px'}}></div>
         <div style={{width: 18, height: 17, left: 0, top: 166, position: 'absolute', background: '#D9D9D9', borderRadius: 9999}} />
@@ -56,7 +56,7 @@ function App() {
         <div style={{width: 18, height: 17, left: 0, top: 333, position: 'absolute', background: '#D9D9D9', borderRadius: 9999}} />
       </div>
 
-      <div style={{width: '100%', height: '100%', position: 'absolute', top: 908, left:347}}>
+      <div style={{width: '100%', height: '100%', position: 'absolute', top: 803, left:612}}>
         <div style={{left: 65, top: 0, position: 'absolute', color: 'black', fontSize: 20, fontFamily: 'Poppins', fontWeight: '900', wordWrap: 'break-word'}}>Junior UI/UX Designer</div>
         <div style={{left: 65, top: 30, position: 'absolute', color: '#878787', fontSize: 16, fontFamily: 'Poppins', fontWeight: '500', wordWrap: 'break-word'}}>QTMA - Kingston</div>
         <div style={{left: 99, top: 85, position: 'absolute', color: '#878787', fontSize: 16, fontFamily: 'Poppins', fontWeight: '500', wordWrap: 'break-word'}}>2024-2025</div>
@@ -68,7 +68,7 @@ function App() {
         <div style={{width: 45, height: 45, left: 0, top: 6, position: 'absolute', background: '#D9D9D9', borderRadius: 9999}} />       {/* PFP */}
       </div>
 
-      <div style={{width: '100%', height: '100%', position: 'absolute', top: 1061, left:809}}>
+      <div style={{width: '100%', height: '100%', position: 'absolute', top: 969, left:612}}>
         <div style={{left: 65, top: 0, position: 'absolute', color: 'black', fontSize: 20, fontFamily: 'Poppins', fontWeight: '900', wordWrap: 'break-word'}}>AI Design Team Member</div>
         <div style={{left: 65, top: 30, position: 'absolute', color: '#878787', fontSize: 16, fontFamily: 'Poppins', fontWeight: '500', wordWrap: 'break-word'}}>QMIND - Kingston</div>
         <div style={{left: 99, top: 85, position: 'absolute', color: '#878787', fontSize: 16, fontFamily: 'Poppins', fontWeight: '500', wordWrap: 'break-word'}}>2024-2025</div>
@@ -78,7 +78,7 @@ function App() {
         <div style={{width: 45, height: 45, left: 0, top: 6, position: 'absolute', background: '#D9D9D9', borderRadius: 9999}} />
       </div>
 
-      <div style={{width: '100%', height: '100%', position: 'absolute', top: 1241, left:347}}>
+      <div style={{width: '100%', height: '100%', position: 'absolute', top: 1134, left:347}}>
         <div style={{left: 65, top: 0, position: 'absolute', color: 'black', fontSize: 20, fontFamily: 'Poppins', fontWeight: '900', wordWrap: 'break-word'}}>UI/UX Designer</div>
         <div style={{left: 65, top: 30, position: 'absolute', color: '#878787', fontSize: 16, fontFamily: 'Poppins', fontWeight: '500', wordWrap: 'break-word'}}>QTMA - Kingston</div>
         <div style={{left: 99, top: 85, position: 'absolute', color: '#878787', fontSize: 16, fontFamily: 'Poppins', fontWeight: '500', wordWrap: 'break-word'}}>2025-Present</div>
@@ -89,7 +89,7 @@ function App() {
       </div>
 
       {/* Projects  #Remember to turn the profiles into components!!!*/}
-      <div id="projects" style={{textAlign: 'center', color: 'black', fontSize: 40, fontFamily: 'Horizon', fontWeight: '700', wordWrap: 'break-word', position:'absolute', top:1586, left:561}}>Projects</div>
+      <div id="projects" style={{textAlign: 'center', color: 'black', fontSize: 40, fontFamily: 'Horizon', fontWeight: '700', wordWrap: 'break-word', position:'absolute', top:1586, left:525}}>Projects</div>
       <div style={{position:'absolute', top:1700, left:329}}>
         <Card/>
       </div>
